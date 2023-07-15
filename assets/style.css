@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*,
+html,
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Poppins;
+}
+
+.nav-link {
+     text-decoration: none;
+     transition: .25s;
+     color: #06283D !important;
+}
+.nav-link-here::after {
+     content: "";
+     width: 80px;
+     height: 6px;
+     background-color: #66C8FF;
+     position: absolute;
+     bottom: 0;
+     left: 35%;
+     transform: translate(-50%);
+}
+.navbar-center {
+     flex-grow: 1;
+     text-align: center;
+}
+.gmaps {
+     padding: 80px 0 0 0;
+}
+.mapouter {
+     margin: 20px 0 100px 424px !important;
+}
+footer {
+     height: 200px;
+     background-color: #66C8FF;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #f0f8ff;
+}
